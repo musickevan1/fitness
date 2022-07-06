@@ -1,0 +1,121 @@
+/*
+
+  Fit for Fun Fitness Club
+  Author: Evan Musick
+  Date:   6/26/2022
+
+  Filename: styles.css
+
+*/
+
+body {
+  font-family: 'Bangers', cursive;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #DE4C3A;
+}
+
+li {
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+ul {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #DE4C3A
+}
+
+p {
+  text-align: center;
+  color: #000000
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 20%;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+tr:hover {
+  background-color: #DE4C3A;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+  color: white;
+}
+
+th, td {
+  border-bottom: 1px solid white;
+}
+
+th {
+  background-color: #DE4C3A;
+}
+
+table {
+  background-color: #333;
+}
+
+h2 {
+  text-align: center;
+}
+
+.center {
+  background-color: #333;
+  margin-left: auto;
+  margin-right: auto;
+  spacing: 21;
+  padding: 21;
+}
+
+caption {
+  align: top;
+}
